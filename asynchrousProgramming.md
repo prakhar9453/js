@@ -113,8 +113,8 @@ Trick: resolve(Promise) will only resolve when inner promise is resolved.
 
 Exercise time: 
 
-Exercise 1: [Exercise 1](https://codepen.io/prakhar9453/pen/vYVQEja)
-Exercise 2: [Exercise 2](https://codepen.io/prakhar9453/pen/WNaYbZV?editors=0011)
+[Exercise 1](https://codepen.io/prakhar9453/pen/vYVQEja)
+[Exercise 2](https://codepen.io/prakhar9453/pen/WNaYbZV?editors=0011)
 
 
 ## Async / Await
