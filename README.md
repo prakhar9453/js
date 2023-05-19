@@ -1,6 +1,6 @@
 # Asynchronous Programming In Javascript
 
-**Asynchronous Programming** helps to execute peice of code that can be done in parallel.
+**Asynchronous Programming** helps peices of code to execute in parallel.
 
 **For Example:**
 
