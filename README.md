@@ -181,7 +181,7 @@ iterator Object
     }
     
     interface Iterator {
-        next: (value: value | undefined) => IteratorOnject;
+        next: () => IteratorObject;
     }
 ```
 
