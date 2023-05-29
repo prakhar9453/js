@@ -199,9 +199,7 @@ createData();
 
 **Implementation using Generators and Iterators.**
 ```
-function doWhenDataRecieved(){
-    returnNextElement.next(value);
-}
+
 
 function *createData(){
     const data = yeild fetch('https://someApi')
@@ -209,6 +207,11 @@ function *createData(){
 }
 
 const returnNextElement = createData();
+
+function doWhenDataRecieved(){
+    returnNextElement.next(value);
+}
+
 futureData = returnNextElement.next().value;
 
 futureData.then(doWhenDataRecieved);
