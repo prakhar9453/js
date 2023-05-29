@@ -209,7 +209,7 @@ function *createData(){
 }
 
 const returnNextElement = createData();
-futureData = returnNextElement.next();
+futureData = returnNextElement.next().value;
 
 futureData.then(doWhenDataRecieved);
 ```
